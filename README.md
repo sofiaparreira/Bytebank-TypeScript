@@ -8,3 +8,4 @@ Projeto em TypeScript feito em 2024 pelo curso da Alura
 - Enums e Alias
 - Formatação de Moeda e Data
 - Importação e exportação de arquivos de forma correta
+- Máscaras e Validações

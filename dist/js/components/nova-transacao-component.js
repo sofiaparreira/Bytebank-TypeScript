@@ -19,7 +19,7 @@ if (elementoForm) {
             saldo += value;
         }
         else if (typeTransaction === TipoTransacao.transferencia || typeTransaction === TipoTransacao.boleto) {
-            saldo -= value;
+            saldo >= value ? saldo -= value : alert("Saldo Insuficiente");
         }
         else {
             alert("Transação Inválida");
